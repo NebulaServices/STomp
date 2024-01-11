@@ -1,0 +1,60 @@
+{
+	"name": "@sysce/stomp",
+	"main": "lib/index.cjs",
+	"description": "Back.",
+	"version": "1.0.1",
+	"homepage": "https://github.com/sysce/stomp",
+	"bugs": {
+		"url": "https://github.com/sysce/stomp/issues",
+		"email": "tomp@sys32.dev"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/sysce/stomp.git"
+	},
+	"author": {
+		"name": "TOMP Development",
+		"email": "tomp@sys32.dev",
+		"url": "https://github.com/tomphttp"
+	},
+	"keywords": [
+		"proxy",
+		"tomp",
+		"tomphttp",
+		"sys32"
+	],
+	"scripts": {
+		"build": "cross-env NODE_ENV=production webpack-cli",
+		"build:dev": "cross-env NODE_ENV=development webpack-cli",
+		"build:watch": "cross-env NODE_ENV=development webpack-cli --watch"
+	},
+	"license": "GPL-3.0",
+	"type": "module",
+	"devDependencies": {
+		"cross-env": "^7.0.3",
+		"eslint": "^8.23.1",
+		"prettier": "^2.6.0",
+		"webpack": "^5.74.0",
+		"webpack-cli": "^4.10.0"
+	},
+	"dependencies": {
+		"@javascript-obfuscator/escodegen": "^2.3.0",
+		"@tomphttp/bare-client": "^1.0.5",
+		"acorn": "^8.8.1",
+		"ast-types": "^0.14.2",
+		"cache-control-parser": "^2.0.2",
+		"css-tree": "^2.2.1",
+		"effective-domain-name-parser": "^0.0.10",
+		"idb": "^7.0.2",
+		"md5": "^2.3.0",
+		"meriyah-loose": "github:sysce/meriyah-loose",
+		"mime": "^3.0.0",
+		"parse5": "^7.1.1",
+		"set-cookie-parser": "^2.5.1",
+		"srcset": "^5.0.0"
+	},
+	"files": [
+		"dist",
+		"lib"
+	]
+}

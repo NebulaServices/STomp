@@ -1,0 +1,1 @@
+{"version":2,"languages":{"nodejs-npm":{"specfileHash":"4b3221ecb075c4af93a3e2209404f21a","lockfileHash":"cb16b241cf82bc70916f869474ce6545","guessedImports":["css-tree","webpack","@javascript-obfuscator/escodegen","ast-types","acorn","mime","effective-domain-name-parser","idb","@tomphttp/bare-client","meriyah-loose"],"guessedImportsHash":"0954c022397fe095a134d23e83512a81"}}}
