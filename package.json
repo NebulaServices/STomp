@@ -32,6 +32,7 @@
 	"type": "module",
 	"devDependencies": {
 		"cross-env": "^7.0.3",
+		"esbuild": "^0.19.11",
 		"eslint": "^8.23.1",
 		"prettier": "^2.6.0",
 		"webpack": "^5.74.0",
